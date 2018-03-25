@@ -1,4 +1,4 @@
-## Setup a multi-condition experiment using AngularJS Service + ngRoute
+## Setup a multi-condition experiment using AngularJS Service + ngRoute + .Component()
 
 You can run it by typing
 
