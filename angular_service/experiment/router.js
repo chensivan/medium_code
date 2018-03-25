@@ -6,15 +6,12 @@ app.config(function($routeProvider) {
     .when("/", {
       templateUrl: "src/home.html"
     })
-    .when("/condition1", {
+    .when("/condition_1", {
       templateUrl: "src/view/index.html",
-      controller: "condition1"
+      controller: "condition"
     })
-    .when("/condition2", {
+    .when("/condition_2", {
       templateUrl: "src/view/index.html",
-      controller: "condition2"
+      controller: "condition"
     })
-    .otherwise({
-        template : "<h1>There is no such page!</h1>"
-    });
 });

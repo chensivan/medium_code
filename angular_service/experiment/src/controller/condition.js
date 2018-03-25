@@ -1,7 +1,7 @@
-app.controller('condition2',[ '$scope', 'myService', function($scope, myService) {
+app.controller('condition',[ '$scope', 'myService', '$location', function($scope, myService, $location) {
 
   $scope.inputVal = ''
-  $scope.currentCondition = 2
+  $scope.currentCondition = $location.path().split('/')[1]
   $scope.click = function() {
     $scope.display = myService.check($scope.inputVal, $scope.currentCondition);
     $scope.service = myService._serviceVar
